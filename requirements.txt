@@ -1,20 +1,9 @@
 torch==2.0.0+cpu  # CPU-only version of PyTorch
-diffusers
-transformers
-accelerate
-streamlit
-opencv-python-headless  # Versão do OpenCV para ambientes sem display
-Pillow
-matplotlib
-
-# from googletrans import Translator  # Biblioteca para tradução
-
-# Função para traduzir o texto de português para inglês
-# def traduzir_para_ingles(texto_portugues):
-#     translator = Translator()
-#     traducao = translator.translate(texto_portugues, src='pt', dest='en')
-#     return traducao.text
-device = "cpu"  # Forçar uso da CPU no Streamlit Cloud
-device = "cuda" if torch.cuda.is_available() else "cpu"
-pip install -r requirements.txt
-streamlit run streamlit_main.py
+diffusers==0.30.3
+transformers==4.44.2
+accelerate==0.34.2
+streamlit==1.25.0
+googletrans==4.0.0-rc1
+Pillow==10.4.0
+matplotlib==3.8.0
+opencv-python-headless==4.8.0.76  # Usar versão headless sem display
