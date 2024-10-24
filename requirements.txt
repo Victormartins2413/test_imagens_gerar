@@ -1,2 +1,1 @@
-!pip install torch torchvision torchaudio
 !pip install diffusers transformers torch accelerate streamlit googletrans==4.0.0-rc1
