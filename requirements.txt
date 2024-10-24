@@ -1,1 +1,9 @@
-pip install diffusers transformers torch accelerate streamlit googletrans==4.0.0-rc1
+torch
+diffusers
+transformers
+accelerate
+streamlit
+googletrans==4.0.0-rc1
+opencv-python-headless
+Pillow
+matplotlib
